@@ -8,3 +8,6 @@ services:
 before_install:
   - docker info
   - docker build -t stocksoftware/keycloak-sqlserver .
+
+script:
+  - docker run -it --rm stocksoftware/keycloak-sqlserver -v
