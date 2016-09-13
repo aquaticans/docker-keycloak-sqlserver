@@ -21,7 +21,7 @@ Then restarting the container:
 
 When starting the Keycloak instance you can pass a number of environment variables to configure how it connects to SQL Server. For example:
 
-    docker run --name keycloak -e KEYCLOAK_LOGLEVEL=DEBUG -e MSSQL_DATABASE=keycloak -e MSSQL_USER=keycloak -e MSSQL_PASSWORD=password jboss/keycloak-postgres
+    docker run --name keycloak -e KEYCLOAK_LOGLEVEL=DEBUG -e MSSQL_DATABASE=keycloak -e MSSQL_USER=keycloak -e MSSQL_PASSWORD=password stocksoftware/keycloak-sqlserver
 
 
 #### KEYCLOAK_LOGLEVEL
