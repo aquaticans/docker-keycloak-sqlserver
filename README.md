@@ -1,5 +1,6 @@
 # docker-keycloak-sqlserver
 
+[![](http://dockeri.co/image/stocksoftware/keycloak-sqlserver)](https://hub.docker.com/r/stocksoftware/keycloak-sqlserver)
 [![Build Status](https://secure.travis-ci.org/stocksoftware/docker-keycloak-sqlserver.png?branch=master)](http://travis-ci.org/stocksoftware/docker-keycloak-sqlserver)
 
 Extends the Keycloak docker image to use SQL Server.
