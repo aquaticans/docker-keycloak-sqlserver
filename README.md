@@ -24,7 +24,6 @@ When starting the Keycloak instance you can pass a number of environment variabl
 
     docker run --name keycloak -e KEYCLOAK_LOGLEVEL=DEBUG -e MSSQL_DATABASE=KEYCLOAK -e MSSQL_USER=keycloak -e MSSQL_PASSWORD=password stocksoftware/keycloak-sqlserver
 
-
 #### KEYCLOAK_LOGLEVEL
 
 The keycloak log level. Use `DEBUG` to get detailed logging.
